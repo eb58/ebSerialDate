@@ -1,0 +1,20 @@
+{
+   "name": "serial-date",
+   "version": "1.0.0",
+   "keywords": [],
+   "jest": {
+      "//": "Comment goes here",
+      "verbose": true
+   },
+   "author": "eb",
+   "contributors": [],
+   "scripts": {
+      "start": "node main.js",
+      "test": "jest --watchAll",
+      "debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand"
+   },
+   "dependencies": {},
+   "devDependencies": {
+      "jest": "^26.2.0"
+   }
+}
